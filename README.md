@@ -13,7 +13,7 @@ A simple Windows batch file script for automated folder backups
    - `amount`: Number of backups to keep.
 
 ```batch
-set "destination_folder=C:\Backups"
 set "source_folder=C:\source_folder"
+set "destination_folder=C:\backups"
 set "freq=600"
 set "amount=10"
